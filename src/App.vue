@@ -45,7 +45,6 @@ export default {
         this.$root.$i18n.locale = this.$store.state.blocklyLocale;
     },
     mounted(){
-<<<<<<< HEAD
         const tourDone = localStorage.getItem('tourDone');
         if (tourDone !== null) this.$store.commit('setTour', {
             status: tourDone
@@ -57,9 +56,6 @@ export default {
             });
             this.setLanguage(blocklyLocale);
         }
-
-=======
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
         if(!this.$store.state.tourDone){
             this.$tours["start-tour"].start();
             this.$store.commit('setTour', {

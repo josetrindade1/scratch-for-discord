@@ -15,7 +15,6 @@
   "NICKNAME": "sobrenome",
   "GET_GUILD": "encontre servidor %1 usando %2",
   "NAME": "nome",
-<<<<<<< HEAD
   "REPLACE":"no texto %1 troque %2 com %3",
   "RES_REPLACE_STRING":"Você precisa me ta um texto para troca!",
   "RES_REPLACE_REPLACE":"Você precisa me fala oque você quer troca no texto!",
@@ -23,10 +22,7 @@
   "ADD_ROLE": "adicione cargo %1 do membro %2",
   "INCLUDES":"%1 tem %2",
   "RES_INCLUDES_TEXT":"Você precisa me ta um texto para ver se tem algo nele!",
-  "RES_INCLUDES_INCLUDES":"Você precisa me ta um texto para ver se tem no outro texto!",
-=======
-  "ADD_ROLE": "adicione cargo %1 do membro %2",
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
+"RES_INCLUDES_INCLUDES":"Você precisa me ta um texto para ver se tem no outro texto!",
   "BAN_MEMBER": "banir membro %1",
   "KICK_MEMBER": "kicka membro %1",
   "SEND_MEMBER": "send %1 to member %2",
@@ -35,15 +31,12 @@
   "BASIC_BLOCKS": "blocos basicos",
   "ADVANCED_BLOCKS": "blocos avançados",
   "MENTIONED_MEMBER": "membro mensianado",
-<<<<<<< HEAD
   "PURGE":"no canal %1 delete %2 memsagens",
   "CHANNEL_MESSAGE_ACTIONS":"Ações nas mensagens do canal",
   "RES_PURGE_AMOUNT":"Você precisa especifica a quantidade de mensagens para deleta!",
   "RES_PURGE_CHANNEL":"Voce precisa especifica o canal!",
   "FOOTER":"footer",
   "THUMBNAIL":"thumbnail",
-=======
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
   "ADMINISTRATOR": "Administrator",
   "DETECT_MESSAGES": "Detectar mensagem",
   "MESSAGE_ACTIONS": "Ações na mensagem",
@@ -113,10 +106,6 @@
   "RES_KICK_MEMBER_MISSING_MEMBER": "você teve especifica um membro valido para ser kickado!",
   "RES_BAN_MEMBER_MISSING_MEMBER": "você teve especifica um membro valido para ser banido!",
   "RES_SEND_MEMBER_MISSING_MEMBER": "You must specify a valid member to send the message to!",
-<<<<<<< HEAD
-  "REMOVE_ROLE": "remover o cargo %1 do membro %2",
-=======
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
   "MANDATORY_BLOCKS": "Blocos obrigatorios",
   "FIND_CHANNEL": "Encontre um canal",
   "SEND_CHANNEL_LABEL": "Envie uma mensagem no canal encontrado",
@@ -249,10 +238,6 @@
   "VOICE": "voz",
   "CATEGORY": "categoria",
   "NEWLINE":"linha nova",
-<<<<<<< HEAD
-=======
-  "SEND_MEMBER": "envia %1 para o membro %2",
   "REMOVE_ROLE": "tira o cargo %1 do membro %2",
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
   "JOINS_RELATED_BLOCKS": "Blocos relacionados a entrada de membros" 
 }

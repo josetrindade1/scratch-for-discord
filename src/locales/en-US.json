@@ -19,10 +19,7 @@
   "REMOVE_ROLE": "remove role %1 from member %2",
   "BAN_MEMBER": "ban member %1",
   "KICK_MEMBER": "kick member %1",
-<<<<<<< HEAD
   "SEND_MEMBER": "send %1 to member %2",
-=======
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
   "MESSAGE_GUILD": "message server",
   "MESSAGE_CHANNEL": "message channel",
   "BASIC_BLOCKS": "Basic blocks",
@@ -40,15 +37,12 @@
   "TITLE": "title",
   "MESSAGE": "message",
   "IMAGE": "image",
-<<<<<<< HEAD
   "FOOTER":"footer",
   "THUMBNAIL":"thumbnail",
   "PURGE":"in channel %1 purge %2 messages",
   "RES_PURGE_AMOUNT":"You must specify a valid amount of messages to purge!",
   "RES_PURGE_CHANNEL":"You must specify a valid channel!",
   "CHANNEL_MESSAGE_ACTIONS":"Action in the messages of channel",
-=======
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
   "TOOLS": "Tools",
   "CHECK_PERMISSIONS": "Check member permissions",
   "MEMBER_HAS_PERMISSION": "the member %1 has permission %2",
@@ -106,7 +100,6 @@
   "RES_REMOVE_ROLE_MISSING_MEMBER": "You must specify a valid member to remove the role!",
   "RES_KICK_MEMBER_MISSING_MEMBER": "You must specify a valid member to be kicked!",
   "RES_BAN_MEMBER_MISSING_MEMBER": "You must specify a valid member to be banned!",
-<<<<<<< HEAD
   "RES_SEND_MEMBER_MISSING_MEMBER": "You must specify a valid member to send the message to!",
   "MANDATORY_BLOCKS": "Mandatory blocks",
   "STARTS_WITH": "%1 starts with %2",
@@ -121,14 +114,6 @@
   "FIND_CHANNEL": "Find a channel",
   "SEND_CHANNEL_LABEL": "Send a message in the found channel",
   "GET_CHANNEL": "get the channel with %2 equal to %1",
-=======
-  "MANDATORY_BLOCKS": "Mandatory blocks",
-  "STARTS_WITH": "%1 starts with %2",
-  "NEWLINE": "new line",
-  "FIND_CHANNEL": "Find a channel",
-  "SEND_CHANNEL_LABEL": "Send a message in the found channel",
-  "GET_CHANNEL": "get the salon with %2 equal to %1",
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
   "RES_MISSING_CHANNEL_VALUE": "You must specify a valid channel name or ID!",
   "RES_SEND_CHANNEL_CONTENT": "You must specify a content to send!",
   "RES_SEND_CHANNEL_CHANNEL": "You must specify a channel in which to send the content!",
