@@ -33,6 +33,7 @@ Blockly.JavaScript[blockName] = function(block) {
     const text = Blockly.JavaScript.valueToCode(block, "TEXT", Blockly.JavaScript.ORDER_ATOMIC);
     const includes = Blockly.JavaScript.valueToCode(block, "INCLUDES", Blockly.JavaScript.ORDER_ATOMIC);
     const code = [`(${text}|| '')).includes((${includes}|| '')))`, Blockly.JavaScript.ORDER_NONE];
+    
     return code;
 };
 
