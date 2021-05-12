@@ -22,7 +22,11 @@
                     <b-col>
                         <div class="handlebuttondiv">
                             <b-overlay :show="botStarting" rounded opacity="0.6" spinner-small spinner-variant="primary" class="d-inline-block" ref="button" @hidden="onHidden">
+<<<<<<< HEAD
                                 <b-button :class="getHandleButtonClass()" @click="handle()" v-b-tooltip.hover :title="getTooltipContent()" ><font-awesome-icon icon="power-off" /></b-button>
+=======
+                                <b-button :class="getHandleButtonClass()" @click="handle()" v-b-tooltip.hover :title="getTooltipContent()" :disabled="!electronApp"><font-awesome-icon icon="power-off" /></b-button>
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
                             </b-overlay>
                         </div>
                     </b-col>
@@ -91,7 +95,10 @@ export default {
             result.then((s4d) => {
                 setTimeout(() => {
                     if(s4d.tokenInvalid){
+<<<<<<< HEAD
                         console.error(s4d.tokenError);
+=======
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
                         this.botStarting = false;
                         this.botStarted = false;
                         this.$toast.open({

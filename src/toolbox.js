@@ -161,6 +161,7 @@ export default (Blockly) => {
             <block type="text_join">
                 <mutation items="2" />
             </block>
+<<<<<<< HEAD
             <block type="s4d_replace">
                 <value name="TEXT">
                     <shadow type="text">
@@ -178,6 +179,8 @@ export default (Blockly) => {
                     </shadow>
                 </value>                
             </block>
+=======
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
             <block type="s4d_newline"></block>
             <block type="text_append">
                 <field name="VAR" id="X4zy!98/2$-ur;|L{NlX">item</field>
@@ -206,6 +209,7 @@ export default (Blockly) => {
                     </shadow>
                 </value>
             </block>
+<<<<<<< HEAD
             <block type="s4d_includes">
                 <value name="TEXT">
                     <shadow type="text">
@@ -218,6 +222,8 @@ export default (Blockly) => {
                     </shadow>
                 </value>
             </block>
+=======
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
             <block type="text_isEmpty">
                 <value name="VALUE">
                     <shadow type="text">
@@ -512,6 +518,7 @@ export default (Blockly) => {
                 </value>
             </block>
             <block type="s4d_send_wait_reply_value"></block>
+<<<<<<< HEAD
             <label text="%{BKY_CHANNEL_MESSAGE_ACTIONS}"></label>
              <block type="s4d_purge">
                 <value name="AMOUNT">
@@ -520,6 +527,8 @@ export default (Blockly) => {
                     </shadow>
                 </value> 
             </block>
+=======
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
             <label text="%{BKY_CHANNEL_ACTIONS}"></label>
             <block type="s4d_create_channel"></block>
         </category>
@@ -543,7 +552,10 @@ export default (Blockly) => {
             <label text="%{BKY_LABEL_MEMBER_ACTIONS}"></label>
             <block type="s4d_kick_member"></block>
             <block type="s4d_ban_member"></block>
+<<<<<<< HEAD
             <block type="s4d_send_member"></block>
+=======
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
             <block type="s4d_set_member_nickname"></block>
         </category>
         <sep />

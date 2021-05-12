@@ -1,6 +1,10 @@
 {
   "name": "scratch-for-discord",
+<<<<<<< HEAD
   "version": "1.13.0",
+=======
+  "version": "1.12.0",
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
   "private": true,
   "scripts": {
     "audit": "npm audit fix",
@@ -11,6 +15,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@blockly/field-date": "^4.2.6",
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
     "@blockly/theme-modern": "^2.1.10",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
@@ -18,6 +26,10 @@
     "blockly": "^4.20201217.0",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
+<<<<<<< HEAD
+=======
+    "core-js": "^3.9.1",
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
     "easy-json-database-browser": "^2.1.0",
     "js-beautify": "^1.13.5",
     "jszip": "^3.6.0",
@@ -27,7 +39,12 @@
     "vue-swal": "^1.0.0",
     "vue-toast-notification": "^0.6.1",
     "vue-tour": "^1.5.0",
+<<<<<<< HEAD
     "vuex": "^3.6.2"
+=======
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^3.2.0"
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
   },
   "devDependencies": {
     "@babel/plugin-syntax-import-meta": "^7.10.4",

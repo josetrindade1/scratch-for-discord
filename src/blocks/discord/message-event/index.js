@@ -12,4 +12,7 @@ import "./message_guild";
 import "./message_guild_raw";
 import "./on_message";
 import "./reply";
+<<<<<<< HEAD
 import "./purge";
+=======
+>>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
