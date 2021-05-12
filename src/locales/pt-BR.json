@@ -106,6 +106,7 @@
   "RES_KICK_MEMBER_MISSING_MEMBER": "você teve especifica um membro valido para ser kickado!",
   "RES_BAN_MEMBER_MISSING_MEMBER": "você teve especifica um membro valido para ser banido!",
   "RES_SEND_MEMBER_MISSING_MEMBER": "You must specify a valid member to send the message to!",
+  "REMOVE_ROLE": "remover o cargo %1 do membro %2",
   "MANDATORY_BLOCKS": "Blocos obrigatorios",
   "FIND_CHANNEL": "Encontre um canal",
   "SEND_CHANNEL_LABEL": "Envie uma mensagem no canal encontrado",
