@@ -20,10 +20,9 @@
   "REMOVE_ROLE": "enlever le rôle %1 au membre %2",
   "BAN_MEMBER": "bannir le membre %1",
   "KICK_MEMBER": "expulser le membre %1",
-<<<<<<< HEAD
+
   "SEND_MEMBER": "envoyer %1 au membre %2",
-=======
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
+
   "MESSAGE_GUILD_RAW": "%1 du serveur du message",
   "MESSAGE_CHANNEL_RAW": "%1 du salon du message",
   "MESSAGE_CHANNEL": "salon du message",
@@ -101,10 +100,9 @@
   "RES_REMOVE_ROLE_MISSING_MEMBER": "Vous devez préciser un membre valide à qui enlever le rôle !",
   "RES_KICK_MEMBER_MISSING_MEMBER": "Vous devez préciser un membre valide à expulser !",
   "RES_BAN_MEMBER_MISSING_MEMBER": "Vous devez préciser un membre valide à bannir !",
-<<<<<<< HEAD
+
   "RES_SEND_MEMBER_MISSING_MEMBER": "Vous devez préciser un membre valide à qui envoyer le message !",
-=======
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
+
   "MANDATORY_BLOCKS": "Blocks obligatoires",
   "STARTS_WITH": "%1 commence par %2",
   "NEWLINE": "nouvelle ligne",

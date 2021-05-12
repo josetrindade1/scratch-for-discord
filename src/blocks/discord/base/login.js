@@ -25,10 +25,6 @@ Blockly.Blocks[blockName] = {
 
 Blockly.JavaScript[blockName] = function(block) {
     const value = Blockly.JavaScript.valueToCode(block, "TOKEN", Blockly.JavaScript.ORDER_ATOMIC);
-<<<<<<< HEAD
     const code = `s4d.client.login(${value}).catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });\n`;
-=======
-    const code = `s4d.client.login(${value}).catch((e) => s4d.tokenInvalid = true);\n`;
->>>>>>> f48a4cb39a4f5a90216969c9186068d7ca6e9680
     return code;
 };
