@@ -156,7 +156,7 @@ export default {
 
 .botinfos {
     border-width: 10px;
-    border-color: grey;
+    border-color: rgb(192,192,192);
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -166,7 +166,7 @@ export default {
     margin-left: 10px;
     font-weight: 600;
     font-size: 20px;
-    color: grey;
+    color: rgb(192, 192, 192);
     text-overflow: ellipsis;
     white-space: nowrap;
 }
@@ -193,7 +193,7 @@ export default {
     z-index: 5; /* Make sure this value is higher than the .form class  */
     top: 0;
     left: 0;
-    background-color: rgb(169, 169, 169, 0.5)
+    background-color: rgba(192,192,192, 0.5)
 }
 
 .unselectable {

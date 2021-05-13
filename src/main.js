@@ -60,12 +60,6 @@ Vue.mixin({
             const newWorkspace = Blockly.inject(document.getElementById("blocklyDiv"), {
                 renderer: "zelos",
                 theme: Theme,
-                grid: {
-                    spacing: 25,
-                    length: 3,
-                    colour: "#ccc",
-                    snap: true
-                },
                 zoom: {
                     controls: true,
                     startScale: 0.9,
