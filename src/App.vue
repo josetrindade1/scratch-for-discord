@@ -26,6 +26,7 @@ import "./blocks/discord/channels/";
 import "./blocks/discord/servers/";
 import "./blocks/discord/roles/";
 import "./blocks/discord/members/";
+import "./blocks/music";
 
 import "./blocks/database/";
 import "./blocks/text/";

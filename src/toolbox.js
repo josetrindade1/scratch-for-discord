@@ -484,6 +484,11 @@ export default (Blockly) => {
             <block type="s4d_react_emoji"></block>
             <block type="s4d_react_member"></block>
         </category>
+        <category name="{{ TOOLBOX_E_MUSIC }}" colour="#89674A">
+        <label text="%{BKY_MUSIC_RELATED_BLOCKS}" web-class="boldtext"></label>
+        <block type="s4d_play"></block>
+        <block type="s4d_vol"></block>
+        </category>
         <sep />
         <category name="{{ TOOLBOX_SERVER }}" colour="#D85E47">
             <label text="%{BKY_FIND_SERVER}"></label>

@@ -135,11 +135,15 @@ Vue.mixin({
                     reply: null,
                     joiningMember: null,
                     database: new Database("./db.json"),
+                    player:null,
                     checkMessageExists() {
                         if (!s4d.client) throw new Error('You cannot perform message operations without a Discord.js client')
                         if (!s4d.client.readyTimestamp) throw new Error('You cannot perform message operations while the bot is not connected to the Discord API')
                     }
                 };
+                const { Player } = require("discord-player");
+                const player = new Player(client);
+                s4d.player = Player
                 s4d.client = new s4d.Discord.Client({
                     fetchAllMembers: true
                 });

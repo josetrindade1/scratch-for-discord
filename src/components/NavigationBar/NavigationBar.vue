@@ -98,7 +98,13 @@ export default {
                         },
                         dependencies: {
                             'discord.js': '^12.5.1',
-                            'easy-json-database': '^1.3.0'
+                            'easy-json-database': '^1.3.0',
+                            'discord-player':'^4.1.0',
+                            'ffmpeg-static':'^4.3.0',
+                            'ffmpeg':'^0.0.4',
+                            'prism-media':'1.2.9',
+                            '@discordjs/opus':'^0.5.0',
+                            'avconv':'^3.1.0'
                         }
                     }));
                     zip.generateAsync({
