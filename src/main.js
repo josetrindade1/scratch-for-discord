@@ -45,8 +45,8 @@ const i18n = new Vuei18n({
 });
 
 import toolbox from "./toolbox";
-import Theme from '@blockly/theme-modern';
-
+import Theme from '@blockly/theme-dark';
+import Theme2 from '@blockly/theme-modern';
 Vue.mixin({
     methods: {
         reloadWorkspace(){
@@ -110,6 +110,20 @@ Vue.mixin({
                     customLocalePT.applyBlocklyLocale();
                     // Change website languages (navbar, etc...)
                     this.$root.$i18n.locale = "pt";
+                    break;
+                default:
+                    break;
+            }
+        },
+        setStyle(Theme){
+            switch (Theme) {
+                case "black":
+                    Blockly.setTheme(Theme);
+                    this.$root.$i18n.theme = "black";
+                    break;
+                case "white":
+                    Blockly.setTheme(Theme2);
+                    this.$root.$i18n.theme = "white";
                     break;
                 default:
                     break;

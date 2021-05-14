@@ -6,7 +6,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
     state: {
         workspace: 0,
-        blocklyLocale: (["en", "fr"].includes(navigator.language.split("-")[0]) ? navigator.language.split("-")[0] : "en"),
+        blocklyLocale: (["en", "fr", "pt"].includes(navigator.language.split("-")[0]) ? navigator.language.split("-")[0] : "en"),
         tourDone: false
     },
     mutations: {
@@ -20,6 +20,10 @@ export default new Vuex.Store({
         setTour (state, { status }){
             state.tourDone = status;
             localStorage.setItem('tourDone', status);
+        },
+        setTheme(state,{ newTheme }){
+            state.blocklyTheme = newTheme;
+            localStorage.setItem('blocklyTheme', newTheme);
         }
     }
 });

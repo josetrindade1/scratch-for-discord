@@ -23,6 +23,7 @@ export default {
     },
     mounted() {
         this.setLanguage(this.$store.state.blocklyLocale);
+        this.setTheme(this.$store.state.blocklyTheme)
         const options = this.$props.options || {};
         options.toolbox = this.$refs["blocklyToolbox"];
         const workspace = Blockly.inject(this.$refs["blocklyDiv"], {

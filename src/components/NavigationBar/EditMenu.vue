@@ -1,5 +1,7 @@
 <template>
     <b-nav-item-dropdown :text="$t('edit.title')" right>
+        <b-dropdown-item @click="changeTheme('white')">white theme</b-dropdown-item>
+        <b-dropdown-item @click="changeTheme('black')">black theme</b-dropdown-item>
         <b-dropdown-item @click="undo">{{ $t('edit.undo') }}</b-dropdown-item>
         <b-dropdown-item @click="redo">{{ $t('edit.redo') }}</b-dropdown-item>
         <b-dropdown-item @click="clear">{{ $t('edit.clear', {
@@ -20,6 +22,13 @@ export default {
         }
     },
     methods: {
+                changeTheme(theme){
+            this.$store.commit("setTheme", {
+                newTheme: theme
+            });
+            this.setStyle(theme);
+            this.reloadWorkspace();
+        },
         undo() {
             this.$store.state.workspace.undo(false);
         },

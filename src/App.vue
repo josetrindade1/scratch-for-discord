@@ -33,7 +33,7 @@ import "./blocks/loops/";
 import "./blocks/other/";
 import "./prompt";
 
-import Theme from '@blockly/theme-modern';
+import Theme from '@blockly/theme-dark';
 
 export default {
     name: "app",
@@ -43,6 +43,7 @@ export default {
     },
     beforeCreate(){
         this.$root.$i18n.locale = this.$store.state.blocklyLocale;
+        this.$root.$i18n.theme = this.$store.state.blocklyTheme;
     },
     mounted(){
         const tourDone = localStorage.getItem('tourDone');
@@ -55,6 +56,13 @@ export default {
                 newLocale: blocklyLocale
             });
             this.setLanguage(blocklyLocale);
+        }
+        const blocklyTheme = localStorage.getItem('blocklyTheme');
+        if (blocklyTheme !== null) {
+            this.$store.commit('setTheme', {
+                newTheme: blocklyTheme
+            });
+            this.setStyle(blocklyTheme);
         }
 
         if(!this.$store.state.tourDone){

@@ -28,6 +28,9 @@ export const websiteMessages = {
         cleanup: "Clean up blocks",
         cleardb: "Clear the database"
     },
+    theme:{
+        title:"theme"
+    },
     lang: {
         title: "Language"
     },

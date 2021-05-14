@@ -28,6 +28,9 @@ export const websiteMessages = {
         cleanup: "limpa blocos",
         cleardb: "limpa database"
     },
+    theme:{
+        title:"tema"
+    },
     lang: {
         title: "linguagem"
     },
